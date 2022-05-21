@@ -1,0 +1,1 @@
+../../../CNIOAtomics/Sources/CNIOAtomics/src/cpp_magic.h

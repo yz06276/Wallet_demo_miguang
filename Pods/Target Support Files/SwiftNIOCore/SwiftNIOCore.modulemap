@@ -1,0 +1,6 @@
+module NIOCore {
+  umbrella header "SwiftNIOCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

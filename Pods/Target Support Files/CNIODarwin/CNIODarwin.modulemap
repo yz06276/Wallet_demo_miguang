@@ -1,0 +1,6 @@
+module CNIODarwin {
+  umbrella header "CNIODarwin-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+module EthereumKit {
+  umbrella header "EthereumKit.swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

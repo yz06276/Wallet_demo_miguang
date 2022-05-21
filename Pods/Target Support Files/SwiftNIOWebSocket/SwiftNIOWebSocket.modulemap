@@ -1,0 +1,6 @@
+module NIOWebSocket {
+  umbrella header "SwiftNIOWebSocket-umbrella.h"
+
+  export *
+  module * { export * }
+}

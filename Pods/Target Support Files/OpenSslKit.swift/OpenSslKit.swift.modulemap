@@ -1,0 +1,6 @@
+module OpenSslKit {
+  umbrella header "OpenSslKit.swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

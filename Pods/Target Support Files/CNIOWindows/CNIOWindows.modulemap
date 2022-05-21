@@ -1,0 +1,6 @@
+module CNIOWindows {
+  umbrella header "CNIOWindows-umbrella.h"
+
+  export *
+  module * { export * }
+}

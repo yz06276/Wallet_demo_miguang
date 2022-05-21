@@ -1,0 +1,15 @@
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/SwiftNIOHTTP1
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public"
+OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/SwiftNIO/NIO.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/SwiftNIOConcurrencyHelpers/NIOConcurrencyHelpers.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/SwiftNIOCore/NIOCore.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/SwiftNIOEmbedded/NIOEmbedded.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/SwiftNIOPosix/NIOPosix.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/_NIODataStructures/_NIODataStructures.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/CNIOAtomics/CNIOAtomics.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/CNIODarwin/CNIODarwin.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/CNIOHTTPParser/CNIOHTTPParser.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/CNIOLinux/CNIOLinux.modulemap" -fmodule-map-file="${PODS_ROOT}/Headers/Public/CNIOWindows/CNIOWindows.modulemap"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/SwiftNIO/NIO.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/SwiftNIOConcurrencyHelpers/NIOConcurrencyHelpers.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/SwiftNIOCore/NIOCore.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/SwiftNIOEmbedded/NIOEmbedded.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/SwiftNIOPosix/NIOPosix.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/_NIODataStructures/_NIODataStructures.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/CNIOAtomics/CNIOAtomics.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/CNIODarwin/CNIODarwin.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/CNIOHTTPParser/CNIOHTTPParser.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/CNIOLinux/CNIOLinux.modulemap" -Xcc -fmodule-map-file="${PODS_ROOT}/Headers/Public/CNIOWindows/CNIOWindows.modulemap" -import-underlying-module -Xcc -fmodule-map-file="${SRCROOT}/${MODULEMAP_FILE}"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/SwiftNIOHTTP1
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
+SWIFT_INCLUDE_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/SwiftNIO" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftNIOConcurrencyHelpers" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftNIOCore" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftNIOEmbedded" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftNIOPosix" "${PODS_CONFIGURATION_BUILD_DIR}/_NIODataStructures"
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

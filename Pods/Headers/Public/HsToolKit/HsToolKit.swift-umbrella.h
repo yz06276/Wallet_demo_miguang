@@ -1,0 +1,1 @@
+../../../Target Support Files/HsToolKit.swift/HsToolKit.swift-umbrella.h

@@ -1,0 +1,6 @@
+module Pods_Metamask_demo_for_hsbc {
+  umbrella header "Pods-Metamask_demo_for_hsbc-umbrella.h"
+
+  export *
+  module * { export * }
+}
